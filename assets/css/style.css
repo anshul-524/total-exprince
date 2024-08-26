@@ -1,15 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url(./root.css);
-.box{
-    margin-bottom: 50px;
+.box {
+  margin-bottom: 50px;
 }
-.max-width-565{
-    max-width: 565px;
+.max-width-565 {
+  max-width: 565px;
 }
-.experience{
-    color: var(--green);
+.experience {
+  color: var(--green);
 }
-@media (max-width:768px) {
-    .box{
-        margin-bottom: 30px;
-    }
+@media (max-width: 768px) {
+  .box {
+    margin-bottom: 30px;
+  }
+}
+.font-family {
+  font-family: "Inter", sans-serif;
 }
